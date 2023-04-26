@@ -1,0 +1,42 @@
+theme = "spacebones_light"
+
+[editor]
+line-number = "relative"
+idle-timeout = 0
+mouse = false
+completion-trigger-len = 1
+true-color = true
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = true
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+[editor.indent-guides]
+render = true
+
+# [editor.whitespace.render]
+# tab = "all"
+
+
+[keys.normal]
+C-w = ":w"
+C-q = ":q"
+
+# [keys.normal."+"]
+# c = ":run-shell-command cargo run"
